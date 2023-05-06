@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'EF_jejudoldam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KCCMurukmuruk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCMurukmuruk.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title a{
+    font-family:  'EF_jejudoldam';
+    text-decoration : none; 
+    color : #93a9d1;
+    font-size : 48px;
+    text-align : center;
+
+    display : inline-block;
+}
+
+.minititle a{
+    font-family:  'EF_jejudoldam';
+    text-decoration : none; 
+    color : #93a9d1;
+    font-size : 24px;
+    text-align : center;
+}
+
+.container a{
+    font-family:  'KCCMurukmuruk';
+    text-decoration : none;
+    color : #000000;
+}
+
+.titlesection p{
+    font-family:  'GmarketSansMedium';
+}
