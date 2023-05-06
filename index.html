@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>SW오픈소스 활용, 이선민</title>
+        <link rel = "stylesheet" href = "style.css">
+        <script>
+            
+        </script>
+    </head>
+
+    <body>
+        <header id = "HomeHeader">
+            <div class = "title">
+                <a href = "index.html">이선민</a>
+            </div>
+
+            <div class = "container">
+                <a href = "info.html">info</a>
+                <a href = "login">github</a>
+                <a href = "signup">blog</a>
+            </div>
+          </header>
+    </body>
+</html>
+
+
+
+
+
+
+<!-- <!doctype html>
+<html lang='ko'>
+  <head>
+    <meta charset="utf-8">
+    <title> 가구 배치 추천시스템, 가배추 </title>
+    <link rel = "stylesheet" href="{% static 'css/home.css' %}">
+  </head>
+
+  <body>
+    <header id="HomeHeader">
+      <div class = "container">
+        <a href="home">홈</a>
+        {% if user.is_authenticated %}
+        <a class="nav-link" href="{% url 'logout' %}">{{ user.username }} (로그아웃)</a>
+        {% else %}
+        <a href="login">로그인</a>
+        <a href="signup"> 회원가입</a>
+        {% endif %}
+      </div>
+
+      <div class = 'logoimg'>
+        <img src="/static/img/titleLogo2.png" width ="105px" height="28px">
+      </div>
+    </header>
+
+    <main id = 'MainTitle'>
+      <div class = 'mainsection'>
+        <div class = 'mainimg'>
+          <div class = 'img'>
+            <img src="/static/img/배치도1.png" width ="200px" height="200px">
+          </div>
+        </div>
+        
+        <script>
+          var myImage = document.getElementById("mainImage");
+          var imageArray = ["/static/img/배치도1.png", "/static/img/배치도4.png","/static/img/배치도5.png"];
+          var imageIndex = 0;
+
+          function changeImage(){
+            myImage.setAttribute("src", imageArray[imageIndex]);
+            imageIndex++;
+
+            if(imageIndex >= imageArray.length){
+              imageIndex = 0;
+            }
+          }
+
+          setInterval(changeImage, 1500);
+        </scrip>
+
+        <div class = 'box'>
+          <div class = 'titlesection'>
+            <p class = "normal"> 당신을 위한 </p>
+            <p class = "normal"> 가구 배치 추천 </p>
+            <p class = "highlight" style="color:#558b2f"> 가배추 </p>
+          </div>
+
+          <div class = 'button'>
+            {% if user.is_authenticated %}
+            <button type="button" onclick="location.href = 'info2'"> 지금 추천받기 </button>
+            {% else %}
+            <button type="button" onclick="location.href = 'info1'"> 지금 추천받기 </button>
+            {% endif %}
+          </div>
+        </div>
+      </div> 
+    </main>
+    
+    <footer id = "footer">
+      <div class = "FooterSection">
+        <div class = 'test'>
+          <div class = "first">
+            <span> 단국대학교 응용컴퓨터공학과 </span>
+            <span> 말감(MALGAM) </span>
+            <span> 김동우, 김연홍, 김유빈, 이선민 </span>
+          </div>
+
+          <div class = "second">
+            <span> 경기도 용인시 수지구 죽전로 152 제2공학관 522호 </span>
+          </div>
+
+          <div class = "copyright">
+            ⓒ MALGAM ALL RIGHTS RESERVED.
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html> -->
